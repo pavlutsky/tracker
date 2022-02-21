@@ -12,11 +12,6 @@ public class Dog {
         this.name = nick;
     }
 
-    public String sound() {
-        String voice = "Гав-Гав";
-        return voice;
-    }
-
     public static void main(String[] args) {
         Dog polkan = new Dog();
         polkan.giveNick("Полкан");
@@ -24,8 +19,6 @@ public class Dog {
         Dog sharik = new Dog();
         sharik.giveNick("Шарик");
         sharik.show();
-        String say = sharik.sound();
-        System.out.println("Шарик лает: " + say);
         Dog zhychka = new Dog();
         zhychka.giveNick("Жучка");
         zhychka.show();
